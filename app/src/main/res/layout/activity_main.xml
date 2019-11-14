@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="TRY"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"></TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="USD"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"></TextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="CAD"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"></TextView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="CHF"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"></TextView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="JPY"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"></TextView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/buttonGetRates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:onClick="getRates"
+            android:text="GET RATES"
+            android:textSize="32dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
